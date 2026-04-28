@@ -28,7 +28,7 @@ USE_REDUCTION_OPTIONS = [False, True]
 LATENT_CHANNELS = [2, 4, 8]
 
 OUT_DIR = Path("cnn_clasica_outputs")
-CM_OUT_DIR = OUT_DIR / "matrices_confusion"
+CM_OUT_DIR = OUT_DIR / "matrices_confusion_2"
 CSV_PATH = OUT_DIR / "metrics_cnn_clasica_mnist_binario.csv"
 
 CSV_FIELDNAMES = [
